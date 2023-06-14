@@ -6,8 +6,8 @@ from copy import deepcopy
 from immutabledict import immutabledict
 from scipy.interpolate import RegularGridInterpolator
 
-from aptinf.share import _cached_configs
-from aptinf.utils import get_file_path
+from inference.share import _cached_configs
+from inference.utils import get_file_path
 
 OMITTED = '<OMITTED>'
 

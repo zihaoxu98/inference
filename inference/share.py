@@ -7,7 +7,7 @@ def set_global_config(configs):
 
     :param configs: dict, configuration file name or dictionary
     """
-    from aptinf.utils import get_file_path
+    from inference.utils import get_file_path
 
     for k, v in configs.items():
         if isinstance(v, (float, int, list)):

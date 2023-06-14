@@ -1,8 +1,8 @@
 import numpy as np
 
-from aptinf.config import takes_config, Template, Constant
-from aptinf.likelihood import ProfiledLikelihood
-from aptinf.model import Poisson, Gaussian, MultiSourceUnbinnedPDF
+from inference.config import takes_config, Template, Constant
+from inference.likelihood import ProfiledLikelihood
+from inference.model import Poisson, Gaussian, MultiSourceUnbinnedPDF
 
 
 @takes_config(

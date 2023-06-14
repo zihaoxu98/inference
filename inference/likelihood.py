@@ -2,8 +2,8 @@ import numpy as np
 from copy import deepcopy
 from immutabledict import immutabledict
 
-from aptinf.optimizer import maximize
-from aptinf.utils import to_array
+from inference.optimizer import maximize
+from inference.utils import to_array
 
 class Likelihood():
     takes_config = immutabledict()

@@ -7,7 +7,7 @@ import numpy as np
 from warnings import warn
 from time import time
 
-from aptinf.share import _cached_configs
+from inference.share import _cached_configs
 
 
 def exporter(export_self=False):
