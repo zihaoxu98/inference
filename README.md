@@ -1,2 +1,1 @@
-# inference
-A toolkit for convenient likelihood definition and statistical inference
+The repo name will be changed.
