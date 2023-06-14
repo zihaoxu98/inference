@@ -1,1 +1,1 @@
-The repo name will be changed.
+A toolkit for convenient likelihood definition and statistical inference
